@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<!-- <p class="view">by {{ page.author | default: site.author }}</p> -->
+{% assign ad =  '<img src="https://plugins.programming-review.com/assets/img/any.jpg" >
+<!-- PR_left -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1993925204978426"
+     data-ad-slot="1365011151"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>'
+%}
+{% assign content_array = page.content | split: site.excerpt_separator %}
+{% assign sizeA = content_array | size %}
+
+{% if sizeA == 1 %}
+{% assign contentA = content_array[0] %}  
+{% assign excerptA = ad %}
+{% assign extraA = "&nbsp;" %}
+{% endif %}
+
+{% if sizeA == 2 %}
+{% assign excerptA = content_array[0] %}
+{% assign contentA = content_array[1] %}
+{% assign extraA = "&nbsp;" %}
+{% endif %}
+
+{% if sizeA == 3 %}
+{% assign excerptA = content_array[0] %}
+{% assign contentA = content_array[1] %}
+{% assign extraA = content_array[2] %}
+{% endif %}
+
+
+<div style="overflow:auto">
+  <div class="menu">
+    {{ excerptA }}
+  </div>
+
+  <div class="main">
+    {{ contentA }}    
+
+    <div style="text-align:center;margin:7px;">
+      <p>&hellip;</p>
+    {% if page.tags %}
+    <small><strong>tags:</strong> <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+    {% endif %} & 
+    {% if page.categories %}
+      <small><strong>category:</strong> <em>{{ page.categories | join: "</em> - <em>" }}</em></small>
+    {% endif %}
+    </div>
+
+  </div>
+
+  <div class="right">
+    {{ extraA }}
+  </div>
+
+
+
+
+</div>
+
+<footer style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">
+
+<small> {{site.footer}} </small>
+</footer>
