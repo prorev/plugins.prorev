@@ -4,16 +4,16 @@ title: setuptools
 date: 2020-02-14
 author: auto-mik
 layout: post
-permalink: /python-setuptools/
-published: true
+permalink: /python/setuptools/
 image:
-categories:
+category:
    - python
 tags:  
    - setuptools
 ---
-Number of Python files 145.
+Easily download, build, install, upgrade, and uninstall Python packages
 
+Number of Python files 145.
 
 ---
 file name: folder/setuptools-45.2.0/conftest.py 
