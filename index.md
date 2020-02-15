@@ -15,6 +15,7 @@ description: Helps and makes your programming easier.
 <div class="home">
 
 {% for category in site.categories %}
+  
   {% assign cat = category | first | strip %}      
   
     {% if cat != empty and cat !='sr' %} 
