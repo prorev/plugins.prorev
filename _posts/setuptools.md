@@ -4,7 +4,7 @@ title: setuptools
 date: 2020-02-14
 author: auto-mik
 layout: post
-permalink: /python/setuptools/
+permalink: /python-setuptools/
 published: true
 image:
 categories:
