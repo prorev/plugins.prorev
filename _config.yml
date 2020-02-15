@@ -1,0 +1,16 @@
+title: PLUGINS REVIEW
+logo: /assets/img/logo.png
+description: Plugin analysis website
+lang: en
+version: 3.8.5
+footer: © PROGRAMMING REVIEW 2010-2020
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+build_revision: 21
+excerpt_separator: [[[]]]
+plugins:
+- jekyll-redirect-from
+- jekyll-sitemap
+- jekyll-feed
