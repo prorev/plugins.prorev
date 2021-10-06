@@ -3,7 +3,7 @@ logo: /assets/img/logo.png
 description: Plugin analysis website
 lang: en
 version: 3.8.5
-footer: © PROGRAMMING REVIEW 2010-2020
+footer: © PROGRAMMING REVIEW 2010-2021
 markdown: kramdown
 kramdown:
   input: GFM
