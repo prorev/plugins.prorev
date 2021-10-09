@@ -1,16 +1,16 @@
 ---
 id: 12971
-title: SecretStorage
+title: secretstorage-3.3.1
 date: 2020-02-14
 author: auto-mik
 layout: post
-permalink: /python/SecretStorage-3.3.1/
+permalink: /python/secretstorage-3.3.1/
 published: true
 image:
 categories:
    - python
 tags:  
-   - SecretStorage
+   - SecretStorage-3.3.1
 ---
 _**Package details:**_
 
@@ -18,37 +18,19 @@ _**Package details:**_
 
 
 
+**Name**: SecretStorage
+
+**Version**: 3.3.1
+
+**Description**: Python bindings to FreeDesktop.org Secret Service API
+
+**Long Description**: file: README.rst
+
+**Author**: Dmitry Shachnev
 
 
 
-
-**name**: SecretStorage
-
-
-
-**version**: 3.3.1
-
-
-
-**description**: Python bindings to FreeDesktop.org Secret Service API
-
-
-
-**long_description**: file: README.rst
-
-
-
-**long_description_content_type**: text/x-rst
-
-
-
-**author**: Dmitry Shachnev
-
-
-
-
-
-**number of Python files**: 18
+**Number of Python files**: 18
 
 
 
