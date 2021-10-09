@@ -18,17 +18,33 @@ _**Package details:**_
 
 
 
+
+
+
+
 **name**: SecretStorage
+
+
 
 **version**: 3.3.1
 
+
+
 **description**: Python bindings to FreeDesktop.org Secret Service API
+
+
 
 **long_description**: file: README.rst
 
+
+
 **long_description_content_type**: text/x-rst
 
+
+
 **author**: Dmitry Shachnev
+
+
 
 
 
@@ -46,7 +62,7 @@ _**Package details:**_
 
    (61 characters, 7 words)
 
-  _imported modules:_ `setuptools` 
+    _imported modules:_ `setuptools` 
 
 
 
@@ -56,7 +72,7 @@ _**Package details:**_
 
    (1576 characters, 165 words)
 
- _defined classes:_ `SecretStorageException`, `SecretServiceNotAvailableException`, `LockedException`, `ItemNotFoundException`, `PromptDismissedException` 
+    _defined classes:_ `SecretStorageException`, `SecretServiceNotAvailableException`, `LockedException`, `ItemNotFoundException`, `PromptDismissedException` 
 
 
 
@@ -66,11 +82,11 @@ _**Package details:**_
 
    (2417 characters, 316 words)
 
-  _imported modules:_ `hmac`, `math`, `os`, `hashlib`, `typing` 
+    _imported modules:_ `hmac`, `math`, `os`, `hashlib`, `typing` 
 
- _defined classes:_ `Session` 
+    _defined classes:_ `Session` 
 
- _defined functions:_ `int_to_bytes` 
+    _defined functions:_ `int_to_bytes` 
 
 
 
@@ -78,11 +94,11 @@ _**Package details:**_
 
    (6002 characters, 607 words)
 
-  _imported modules:_ `os`, `typing`, `jeepney`, `jeepney.io.blocking`, `secretstorage.defines`, `secretstorage.dhcrypto`, `secretstorage.exceptions`, `cryptography.hazmat.primitives.ciphers`, `cryptography.hazmat.backends` 
+    _imported modules:_ `os`, `typing`, `jeepney`, `jeepney.io.blocking`, `secretstorage.defines`, `secretstorage.dhcrypto`, `secretstorage.exceptions`, `cryptography.hazmat.primitives.ciphers`, `cryptography.hazmat.backends` 
 
- _defined classes:_ `DBusAddressWrapper` 
+    _defined classes:_ `DBusAddressWrapper` 
 
- _defined functions:_ `open_session`, `format_secret`, `exec_prompt`, `unlock_objects`, `add_match_rules` 
+    _defined functions:_ `open_session`, `format_secret`, `exec_prompt`, `unlock_objects`, `add_match_rules` 
 
 
 
@@ -90,11 +106,11 @@ _**Package details:**_
 
    (8408 characters, 819 words)
 
-  _imported modules:_ `typing`, `jeepney.io.blocking`, `secretstorage.defines`, `secretstorage.dhcrypto`, `secretstorage.exceptions`, `secretstorage.item`, `secretstorage.util` 
+    _imported modules:_ `typing`, `jeepney.io.blocking`, `secretstorage.defines`, `secretstorage.dhcrypto`, `secretstorage.exceptions`, `secretstorage.item`, `secretstorage.util` 
 
- _defined classes:_ `Collection` 
+    _defined classes:_ `Collection` 
 
- _defined functions:_ `create_collection`, `get_all_collections`, `get_default_collection`, `get_any_collection`, `get_collection_by_alias`, `search_items` 
+    _defined functions:_ `create_collection`, `get_all_collections`, `get_default_collection`, `get_any_collection`, `get_collection_by_alias`, `search_items` 
 
 
 
@@ -102,9 +118,9 @@ _**Package details:**_
 
    (3180 characters, 315 words)
 
-  _imported modules:_ `jeepney.bus_messages`, `jeepney.io.blocking`, `secretstorage.collection`, `secretstorage.item`, `secretstorage.exceptions`, `secretstorage.util` 
+    _imported modules:_ `jeepney.bus_messages`, `jeepney.io.blocking`, `secretstorage.collection`, `secretstorage.item`, `secretstorage.exceptions`, `secretstorage.util` 
 
- _defined functions:_ `dbus_init`, `check_service_availability` 
+    _defined functions:_ `dbus_init`, `check_service_availability` 
 
 
 
@@ -120,9 +136,9 @@ _**Package details:**_
 
    (5241 characters, 513 words)
 
-  _imported modules:_ `typing`, `jeepney.io.blocking`, `secretstorage.defines`, `secretstorage.dhcrypto`, `secretstorage.exceptions`, `secretstorage.util`, `cryptography.hazmat.primitives.ciphers`, `cryptography.hazmat.backends` 
+    _imported modules:_ `typing`, `jeepney.io.blocking`, `secretstorage.defines`, `secretstorage.dhcrypto`, `secretstorage.exceptions`, `secretstorage.util`, `cryptography.hazmat.primitives.ciphers`, `cryptography.hazmat.backends` 
 
- _defined classes:_ `Item` 
+    _defined classes:_ `Item` 
 
 
 
@@ -132,9 +148,9 @@ _**Package details:**_
 
    (813 characters, 71 words)
 
-  _imported modules:_ `contextlib`, `unittest`, `secretstorage`, `secretstorage.collection` 
+    _imported modules:_ `contextlib`, `unittest`, `secretstorage`, `secretstorage.collection` 
 
- _defined classes:_ `ContextManagerTest` 
+    _defined classes:_ `ContextManagerTest` 
 
 
 
@@ -144,9 +160,9 @@ _**Package details:**_
 
    (528 characters, 58 words)
 
-  _imported modules:_ `unittest`, `secretstorage.dhcrypto` 
+    _imported modules:_ `unittest`, `secretstorage.dhcrypto` 
 
- _defined classes:_ `ConversionTest` 
+    _defined classes:_ `ConversionTest` 
 
 
 
@@ -156,9 +172,9 @@ _**Package details:**_
 
    (1164 characters, 84 words)
 
-  _imported modules:_ `unittest`, `secretstorage`, `secretstorage.util`, `secretstorage.exceptions` 
+    _imported modules:_ `unittest`, `secretstorage`, `secretstorage.util`, `secretstorage.exceptions` 
 
- _defined classes:_ `LockingUnlockingTest` 
+    _defined classes:_ `LockingUnlockingTest` 
 
 
 
@@ -168,9 +184,9 @@ _**Package details:**_
 
    (1101 characters, 86 words)
 
-  _imported modules:_ `unittest`, `secretstorage`, `secretstorage.exceptions` 
+    _imported modules:_ `unittest`, `secretstorage`, `secretstorage.exceptions` 
 
- _defined classes:_ `ExceptionsTest` 
+    _defined classes:_ `ExceptionsTest` 
 
 
 
@@ -188,9 +204,9 @@ _**Package details:**_
 
    (3347 characters, 260 words)
 
-  _imported modules:_ `unittest`, `time`, `secretstorage` 
+    _imported modules:_ `unittest`, `time`, `secretstorage` 
 
- _defined classes:_ `ItemTest` 
+    _defined classes:_ `ItemTest` 
 
 
 
@@ -200,7 +216,7 @@ _**Package details:**_
 
    (1027 characters, 91 words)
 
-  _imported modules:_ `os.path`, `sys`, `subprocess`, `unittest`, `secretstorage` 
+    _imported modules:_ `os.path`, `sys`, `subprocess`, `unittest`, `secretstorage` 
 
 
 
@@ -210,9 +226,9 @@ _**Package details:**_
 
    (2856 characters, 234 words)
 
-  _imported modules:_ `unittest`, `secretstorage`, `secretstorage`, `secretstorage`, `secretstorage.util`, `secretstorage.exceptions` 
+    _imported modules:_ `unittest`, `secretstorage`, `secretstorage`, `secretstorage`, `secretstorage.util`, `secretstorage.exceptions` 
 
- _defined classes:_ `CollectionTest`, `MockCollectionTest` 
+    _defined classes:_ `CollectionTest`, `MockCollectionTest` 
 
 
 
@@ -222,7 +238,7 @@ _**Package details:**_
 
    (315 characters, 29 words)
 
-  _imported modules:_ `contextlib`, `secretstorage` 
+    _imported modules:_ `contextlib`, `secretstorage` 
 
 
 
@@ -232,5 +248,5 @@ _**Package details:**_
 
    (2398 characters, 323 words)
 
-  _imported modules:_ `sys` 
+    _imported modules:_ `sys` 
 
